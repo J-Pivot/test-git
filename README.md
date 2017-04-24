@@ -22,6 +22,11 @@ backtick (altGr + 7) : Code inline
 cd path/to/directory
 ```
 
+```bash
+# crée un fichier myFile.ext
+touch myFile.ext
+```
+
 ## Précis de Git
 
 `git init` : initialisation d'un dossier Git
