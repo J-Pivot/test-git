@@ -22,7 +22,7 @@ backtick (altGr + 7) : Code inline
 cd path/to/directory
 ```
 
-## Précis de Git
+## Précis de Git après passage dans la branch **fix**
 
 `git init` : initialisation d'un dossier Git
 
