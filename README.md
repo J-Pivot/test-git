@@ -26,6 +26,22 @@ cd path/to/directory
 
 `git init` : initialisation d'un dossier Git
 
-`git status` :
+`git add`: créer/modifier ==> passage à l'état stagged
 
-`git commit` :
+`git rm path/to/file` : supprimer un fichier du commit
+
+`git mv` modification du nom d'un fichier
+
+`git status` :avoir le statut
+
+`git commit` : stagged ==> unmodified
+
+`git commit --amen`: permet de supprimer le dernier commit
+
+`git log` : historique des opérations
+
+`git log --pretty=oneline` : raccourcie du git log
+
+`git branch testing` : créer une branche "testing"
+
+`git checkout testing` : déplace la tête de lecture sur "testing"
