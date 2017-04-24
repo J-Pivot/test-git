@@ -50,3 +50,5 @@ touch myFile.ext
 `git branch testing` : créer une branche "testing"
 
 `git checkout testing` : déplace la tête de lecture sur "testing"
+
+`git merge testing` :permet de fusionner les branches
