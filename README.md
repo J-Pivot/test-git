@@ -24,8 +24,35 @@ cd path/to/directory
 
 ## Précis de Git après passage dans la branch **fix**
 
+```bash
+# crée un fichier myFile.ext
+touch myFile.ext
+```
+
+## Précis de Git
+
 `git init` : initialisation d'un dossier Git
 
-`git status` :
+`git add`: créer/modifier ==> passage à l'état stagged
 
-`git commit` :
+`git rm path/to/file` : supprigit mer un fichier du commit
+
+`git mv` modification du nom d'un fichier
+
+`git status` :avoir le statut
+
+`git commit` : stagged ==> unmodified
+
+`git commit --amen`: permet de supprimer le dernier commit
+
+`git log` : historique des opérations
+
+`git log --pretty=oneline` : raccourcie du git log
+
+`git branch testing` : créer une branche "testing"
+
+`git checkout testing` : déplace la tête de lecture sur "testing"
+
+`git merge testing` :permet de fusionner les branches
+
+`git tag [-l v"X.Y.Z-rc"]` : permet de tager ses versions
